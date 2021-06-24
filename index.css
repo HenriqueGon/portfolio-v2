@@ -1,0 +1,151 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  font-size: 20px;
+}
+
+.intro {
+  width: 100%;
+  height: auto;
+  padding: 240px 0px;
+  background-color: #000;
+  position: relative;
+  color: #fff
+}
+
+.tecnologias {
+  width: 100%;
+  height: auto;
+  background-color:#000;
+  position: relative;
+  color:#fff;
+  padding: 10px 0px;
+}
+
+.sobre {
+  display: 'flex'; 
+  justify-content: flex-start;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sub-title {
+  font-size: 20px;
+}
+
+.card {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  height: 368px;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 5%;
+}
+.card .background {
+  width:100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+   -webkit-transform: scale(1.8);
+  transform: scale(2.8);
+}
+.card .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.card .img {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.card h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size:25px;
+}
+.card h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top:10px;
+}
+.card i {
+  display: inline-block;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.card .icon-block{
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+.card .icon-block a{
+    text-decoration: none;
+}
+.card i:hover {
+  background-color:#fff;
+  color:#2E3434;
+  text-decoration: none;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-linguagens {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff;
+  color: #000;
+  border-radius: 12px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.container-linguagens .content {
+  height: 100%;
+  width: 50%;
+  margin: 0px 10px;
+  background-color: #fff;
+}
+
+.container-linguagens .content:first-child {
+  border-right: 1px solid #cecece;
+}
+
