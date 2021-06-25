@@ -16,27 +16,29 @@ ul li {
   font-size: 20px;
 }
 
-.intro {
+#intro {
   width: 100%;
   height: auto;
   padding: 240px 0px;
   background-color: #000;
-  position: relative;
   color: #fff
 }
 
-.tecnologias {
+#sobre {
+  overflow: hidden;
+}
+
+#tecnologias {
   width: 100%;
   height: auto;
   background-color:#000;
-  position: relative;
   color:#fff;
   padding: 10px 0px;
+  overflow: hidden;
 }
 
-.sobre {
-  display: 'flex'; 
-  justify-content: flex-start;
+#projetos {
+  overflow: hidden;
 }
 
 .text-center {
@@ -60,12 +62,12 @@ ul li {
   border-radius: 5%;
 }
 .card .background {
-  width:100%;
+  width: 100%;
   vertical-align: top;
   opacity: 0.9;
   -webkit-filter: blur(5px);
   filter: blur(5px);
-   -webkit-transform: scale(1.8);
+  -webkit-transform: scale(1.8);
   transform: scale(2.8);
 }
 .card .card-content {
@@ -140,7 +142,6 @@ ul li {
 
 .container-linguagens .content {
   height: 100%;
-  width: 50%;
   margin: 0px 10px;
   background-color: #fff;
 }
